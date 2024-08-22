@@ -1,25 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="style.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <title>Sorteo de Cartas</title>
   </head>
+
   <body>
     <div class="container">
       <h1>Ordenar Cartas</h1>
-      <input type="number" id="card-count" placeholder="Número de cartas" />
-      <button id="draw-button">Sorteo</button>
-      <button id="sort-button">Ordenar</button>
-      <div id="card-container"></div>
-      <div id="sort-log"></div>
+      <input type="number" class="card-count" placeholder="Número de cartas" />
+      <button class="draw-button">Generar</button>
+      <button class="sort-button">Ordenar</button>
+      <div class="card-container"></div>
+      <div class="sort-log"></div>
     </div>
     <script src="app.js"></script>
   </body>

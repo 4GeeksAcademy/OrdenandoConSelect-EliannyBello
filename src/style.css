@@ -1,6 +1,6 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
 body {
-  background-color: rgb(97, 197, 97);
+  background-color: rgb(112, 194, 112);
+  justify-content: center;
 }
 
 .container {
@@ -8,7 +8,7 @@ body {
   margin-top: 50px;
 }
 
-#card-container {
+.card-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -27,7 +27,7 @@ body {
   font-size: 24px;
 }
 
-#sort-log {
+.sort-log {
   margin-top: 20px;
   text-align: left;
   font-size: 14px;
